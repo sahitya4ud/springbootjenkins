@@ -8,6 +8,7 @@ public class Controller {
     @GetMapping(value = "api/hello",consumes = "application/json",produces = "application/json")
     public String getAccess(){
         System.out.println("hello world");
+        System.out.println("hello");
         return "hello";
 
     }
