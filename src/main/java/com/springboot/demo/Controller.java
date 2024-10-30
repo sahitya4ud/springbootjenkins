@@ -9,7 +9,7 @@ public class Controller {
     public String getAccess(){
         System.out.println("hello world");
         System.out.println("hello");
-        System.out.println("code tested");
+        System.out.println("code tested.");
         return "hello";
 
     }
